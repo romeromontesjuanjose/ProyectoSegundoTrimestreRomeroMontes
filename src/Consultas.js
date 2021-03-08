@@ -52,7 +52,7 @@ db.jornadas.aggregate([
 ]).pretty()
 
 /*En esta consulta se calculara el salario real de cada uno de nuestros empleados y 
-a compararlo con el salario estimado, de forma que nos diga si el salario estimado 
+se comparará con el salario estimado, de forma que nos diga si el salario estimado 
 concuerda o no y su diferencia (indicando en positivo los salarios reales mayores a los 
 salarios estimados y en negativos los casos contrarios)*/
 
